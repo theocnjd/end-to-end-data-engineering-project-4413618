@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+- name: raw_data
+  database: big-star-collectibles-395410
+  schema: raw_data
+  freshness:
+    warn_after:
+      count: 24
+      peried: hour
+  tables:
+    Generate model
+    - name: customers
+    Generate model
+    - name: orders
+    Generate model
+    - name: products
+    Generate model
+    - name: order_items

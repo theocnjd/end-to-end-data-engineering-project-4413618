@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: dim_customers
+    customers:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+      - name: email
+        tests:
+          - not_null
+      - name: country
+        tests:
+          - not_null
